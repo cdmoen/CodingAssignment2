@@ -1,0 +1,74 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(images/kitchen4.jpg);
+    font-family: 'Work Sans', sans-serif;
+    background-size: 60%;
+    font-weight: 300;
+    margin: 0;
+}
+
+a {
+    color: #144972;
+}
+
+a:hover {
+    color: #3b2222c7;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+figure img {
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-bottom: 3rem;
+}
+
+h1 {
+    color: #22333B;
+    font-size: 3.5rem;
+    letter-spacing: 0.2rem;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+}
+
+h2 {
+    /* font-style: italic; */
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: -1rem;
+    margin-bottom: 0;
+}
+
+header p {
+    font-size: 0.8rem;
+    margin-top: 0;
+    text-indent: 0.2rem;
+}
+
+.wrapper {
+    background-color: #ceb9a6f3;
+    color: #000000;
+    max-width: 70%;
+    background-size: 30%;
+    outline: 2px solid rgba(59, 47, 37, 0.5);
+    outline-offset: -20px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.wrapper li {
+    color: #22333B;
+    font-weight: 400;
+}
+
+hr {
+    color: rgba(0, 0, 0, 0.781);
+}
